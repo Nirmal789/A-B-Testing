@@ -69,6 +69,9 @@ with left_column:
     experiment_group_visitors = st.number_input("Experiment Group Visitors")
     experiment_group_conversions = st.number_input("Experiment Group Conversions")
     confidence_level = st.selectbox("Confidence Level", [90, 95, 99])
+with right_column:
+    htp6= "https://img.freepik.com/free-vector/storyboard-process-illustration_23-2148679316.jpg?t=st=1710695791~exp=1710699391~hmac=a77e95c008215ba23257b0a7a2801cdc07904871046b52461bb58feb3861830a&w=740"
+    st.image(htp6, width= 400)
 
 st.write("To run the hypothesis test, click on the specified button below ↓")
 
