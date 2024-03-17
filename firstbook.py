@@ -14,7 +14,10 @@ with st.container():
     with left_column:
         st.write("""This is a small streamlit web application that allows users to perform hypothesis testing for A/B tests with ease. Users can input data related to their control and treatment groups, including the number of visitors and conversions for each group, as well as their desired confidence level.
 Based on this input, the app conducts the hypothesis test and provides the result: whether the experiment group is better, the control group is better, or if the results are indeterminate.""")
-
+    with right_column:
+        htp5= "https://img.freepik.com/free-vector/web-design-content-creating-landing-page-website-homepage-creating-design-element-female-graphics-designer-developer-flat-character_335657-2617.jpg?t=st=1710695653~exp=1710699253~hmac=3f5f11f2dcff17385dadc999fabe7d04cc737ebaefeef8d24b60ebbd5f3afef5&w=740"
+        st.image(htp5, width=300)\
+        
 with st.container():
     st.write("---")
     
