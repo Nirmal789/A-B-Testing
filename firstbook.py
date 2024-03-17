@@ -14,8 +14,6 @@ with st.container():
     with left_column:
         st.write("""This is a small streamlit web application that allows users to perform hypothesis testing for A/B tests with ease. Users can input data related to their control and treatment groups, including the number of visitors and conversions for each group, as well as their desired confidence level.
 Based on this input, the app conducts the hypothesis test and provides the result: whether the experiment group is better, the control group is better, or if the results are indeterminate.""")
-    with right_column:
-        st.image("sticker1.jpg", use_column_width=True)
 
 with st.container():
     st.write("---")
@@ -67,9 +65,6 @@ with left_column:
     experiment_group_visitors = st.number_input("Experiment Group Visitors")
     experiment_group_conversions = st.number_input("Experiment Group Conversions")
     confidence_level = st.selectbox("Confidence Level", [90, 95, 99])
-
-with right_column:
-    st.image("sticker2.jpg", use_column_width=True)
 
 st.write("To run the hypothesis test, click on the specified button below ↓")
 
