@@ -3,7 +3,6 @@ import pandas as pd
 import scipy.stats as stats
 import math
 
-
 st.set_page_config(page_title="A/B Testing", page_icon=":tada", layout="wide")
 
 
