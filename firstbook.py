@@ -21,7 +21,7 @@ Based on this input, the app conducts the hypothesis test and provides the resul
 with st.container():
     st.write("---")
     
-    uploaded_file = st.file_uploader("File is uploaded below")
+    uploaded_file = st.file_uploader("File is uploaded below ↓")
     
     if uploaded_file:
         data = pd.read_csv(uploaded_file)
