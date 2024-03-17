@@ -26,6 +26,7 @@ with st.container():
     if uploaded_file:
         data = pd.read_csv(uploaded_file)
         st.write(data)
+        st.write("Number of missing values:-")
         st.write(data.isnull().sum())
     
 with st.container():
