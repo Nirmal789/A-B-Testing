@@ -72,8 +72,7 @@ with right_column:
     htp6= "https://img.freepik.com/free-vector/storyboard-process-illustration_23-2148679316.jpg?t=st=1710695791~exp=1710699391~hmac=a77e95c008215ba23257b0a7a2801cdc07904871046b52461bb58feb3861830a&w=740"
     st.image(htp6, width= 400)
 
-
-    st.write("To run the hypothesis test, click on the specified button below ↓")
+st.write("To run the hypothesis test, click on the specified button below ↓")
 
 if st.button("Run Hypothesis Test"):
     p_value, significant, control_group_rate, experiment_group_rate = test_hypothesis(control_group_visitors, control_group_conversions, experiment_group_visitors, experiment_group_conversions, confidence_level)
