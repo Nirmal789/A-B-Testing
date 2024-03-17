@@ -60,7 +60,7 @@ with left_column:
 st.title("A/B Test Hypothesis Testing App")
 with st.container():
     st.write("---")
-    left_column, right_column= st.columns(3)
+    left_column, right_column= st.columns(2)
 
 with left_column:
     control_group_visitors = st.number_input("Control Group Visitors")
